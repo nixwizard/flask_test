@@ -21,8 +21,6 @@ def index():
         user = user,
         posts = posts)
 
-
-@app.route('/login', methods = ['GET', 'POST'])
 @app.route('/login', methods = ['GET', 'POST'])
 def login():
     form = LoginForm()
