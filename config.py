@@ -13,4 +13,5 @@ OPENID_PROVIDERS = [
     { 'name': 'Flickr', 'url': 'http://www.flickr.com/<username>' },
     { 'name': 'MyOpenID', 'url': 'https://www.myopenid.com' },
     { 'name': 'echo', 'url': 'http://www.liveinternet.ru/openid.php' }]
-
+# pagination
+POSTS_PER_PAGE = 3
